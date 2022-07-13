@@ -34,6 +34,9 @@ switch(randomNumber) {
   eightBall = 'Outlook not so good';
   break;
   eightBall = 'signs point to yes';
+  break;
+  default:
+  console.log('undefined');
 }
 
-console.log(`Magic EightBall says, ${randomNumber});
+console.log(`Magic Eight Ball's says, ${eightBall}`)
